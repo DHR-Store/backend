@@ -1,0 +1,24 @@
+{
+  "name": "my-app-update-api",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHR-Store/backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DHR-Store/backend/issues"
+  },
+  "homepage": "https://github.com/DHR-Store/backend#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

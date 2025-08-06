@@ -1,0 +1,17 @@
+// my-update-server/vercel.json
+
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js", // Or "index.js" if you renamed your main file
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/server.js" // Or "/index.js"
+    }
+  ]
+}
